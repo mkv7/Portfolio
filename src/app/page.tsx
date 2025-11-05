@@ -1,0 +1,25 @@
+import Hero from '@/components/Hero';
+import About from '@/components/About';
+import Skills from '@/components/Skills';
+import Projects from '@/components/Projects';
+import Experience from '@/components/Experience';
+import Testimonials from '@/components/Testimonials';
+import Contact from '@/components/Contact';
+import Footer from '@/components/Footer';
+import Navigation from '@/components/Navigation';
+
+export default function Home() {
+  return (
+    <main className="min-h-screen bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800">
+      <Navigation />
+      <Hero />
+      <About />
+      <Skills />
+      <Projects />
+      <Experience />
+      <Testimonials />
+      <Contact />
+      <Footer />
+    </main>
+  );
+}
